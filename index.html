@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nasa - Natural Events finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h3>NASA - Current Natural Events Finder</h3>
+        <div class="content-left col s8">
+          <div id="map"></div>
+          <div class="card">
+            <div class="card-content">
+              <form class="search-form">
+                <div class="input-field">
+                  <input placeholder="Search..." id="eventSearch" type="text" class="validate">
+                  <label for="eventSearch">Press enter to search</label>
+                </div>
+              </form>
+
+            </div>
+            <div class="card-action">
+
+            </div>
+          </div>
+          <p>Natural events found: <span id="event-count"></span> <p>
+        </div>
+        <div class="content-right col s4">
+          <ul id="eventsList" class="collection">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <script type="text/javascript" src="http/http.js"></script>
+    <script type="text/javascript" src="controllers/EventsCtrl.js"></script>
+    <script type="text/javascript" src="controllers/UICtrl.js"></script>
+    <script type="text/javascript" src="controllers/MapCtrl.js"></script>
+    <script type="text/javascript" src="app.js">5</script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+.container {
+  max-width: 1440px;
+}
+
+
+.card .card-action {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#map {
+  height: 600px;
+}
+
+.leaflet-popup-content {
+  margin: 20px 30px;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection-item-text {
+  width: 65%;
+}
+
+.collection-item:hover {
+  cursor: pointer;
+  background-color: #c5cae9;
+}
+
+.active > .badge {
+  color: white;
+}
+
+.collection .collection-item.active {
+  background-color: #1a237e;
+}
+
+#eventsList {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 807.5px;
+  overflow-y: scroll;
+}
+
+.collection-item.pink {
+  background-color: #fce4ec !important;
+}
+
+.collection .collection-item.pink.active {
+  background-color: #e91e63 !important;
+}
+
+.collection-item.red {
+  background-color: #ffebee !important;
+}
+
+.collection .collection-item.red.active {
+  background-color: #f44336 !important;
+}
+
+.collection-item.cyan {
+  background-color: #e0f7fa !important;
+}
+
+.collection .collection-item.cyan.active {
+  background-color: #00bcd4 !important;
+}
+
+.collection-item.orange {
+  background-color: #fff3e0 !important;
+}
+
+.collection .collection-item.orange.active {
+  background-color: #ff9800 !important;
+}
+
+.collection-item.indigo {
+  background-color: #e8eaf6 !important;
+}
+
+.collection .collection-item.indigo.active {
+  background-color: #3f51b5 !important;
+}
